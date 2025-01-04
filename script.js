@@ -20,10 +20,12 @@ const rain = () => {
     e.style.animationDuration = `${1 + duration}s`;
 
     setTimeout(
-        () => cloud.removeChild(e), 2000,
+        () => cloud.removeChild(e),
+        2000,
     );
 };
 
 setInterval(
-    () => rain(), 20,
+    () => rain(),
+    20,
 );
