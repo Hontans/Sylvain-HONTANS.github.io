@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .container {
-    --clr: #0F0
+    margin-top: 150px;
+    --clr: #0F0;
     position: relative;
     top: 100px;
     height: 400px;
@@ -33,11 +36,11 @@ h2 {
 h2::before {
     content: '';
     position: absolute;
-    width: 120%;
+    width: 200%;
     height: 100px;
     background: var(--clr);
     top: -115px;
-    left: 50%;
+    left: 80%;
     border-radius: 100px;
     transform: translateX(-50%);
 }
@@ -81,7 +84,7 @@ h2::after {
         transform-origin: bottom;
     }
     80% {
-        transform: translateY(300px) scaleY(0.25);
+        transform: translateY(300px) scaleY(1);
         transform-origin: bottom;
     }
     100% {
